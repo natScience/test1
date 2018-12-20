@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            list-style: none;
+
+        }
+        .background{
+            height:900px;
+            width:1920px;
+            background: #f2f2f2 url('./images/bg-starfield.jpg') no-repeat;
+            top:39px;
+
+        }
+        header{
+            
+            background: #242424;
+            width:1920px;
+            height:70px;
+            display: block;
+            font-family:'Courier New', Courier, monospace;
+            color:#ffff;
+            line-height: 70px;
+            text-align: center;
+            font-size: 20px;
+
+
+
+        }
+        header > p{
+            float: left;
+            width:960px;
+        }
+        nav{
+            width:1920px;
+            height:38px;
+           
+            
+        }
+        nav > p{
+            width:140px;
+            float: left;
+            background:#fa0318fd;
+            line-height: 38px;
+            font-family:'STXingkai';
+            padding-left: 10px;
+            border-right: 1px solid #f2f2f2;
+            
+        }
+        nav > .p_right{
+            width:200px;
+            float: right;
+            background:#fa0318fd;
+            padding-right: 10px;
+            border-left: 1px solid #f2f2f2;
+        }
+        nav > article{
+            position: relative;
+            float: left;
+            width:1547px;
+            line-height: 38px;
+            font-family:'STXingkai';
+            text-align: center;
+
+        }
+        nav > article > p{
+            width:386.7px;
+            float: left;
+            background: #f0f0f0;
+            opacity: 0.5;
+        }
+        .background .asideLeft{
+            float: left;
+            height: 900px;
+            width:150px;
+            border-right: 1px solid #f2f2f2;
+            /* background: #000; */
+        }
+        .background .asideRight{
+            float: right;
+            height: 900px;
+            width:221px;
+            border-left: 1px solid #f2f2f2;
+
+            /* background:#000; */
+
+        }
+        .background .asideLeft ul li{
+            color: #fff;
+            height: 85px;
+            background: rgb(14, 13, 13);
+            border: solid 1px #f0f0f0;
+            text-align: center;
+            line-height: 85px;
+            opacity: 0.7;
+        }
+        .mxp0214{
+            position: absolute;
+            margin:0px 222px 0 151px;
+            width:1547px;
+            height:862px;
+            background: #f2f2f2;
+            /* background: #f0f0f0; */
+            opacity: 0.7;
+        }
+        .bottom{
+            position: absolute;
+            margin-top:862px;
+            background: #f2f2f2;
+            width:1920px;
+            height:38px;
+            text-align: center;
+            line-height: center;
+            font-family: '微软雅黑';
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p> Quantum Information Science and Technology</p>
+        <p> Network Penetration and Defense Technology</p>
+    </header>
+    <div class="background">
+        <nav>
+            <p>量子信息技术</p>
+            <article> 
+                <p> 移舟泊烟渚  </p> 
+                <p> 日暮客愁新  </p>
+                <p> 野旷天低树  </p>
+                <p> 江清月近人  </p>
+            </article>
+            <p class="p_right">文章列表</p>
+        </nav>
+        <dev class="mxp0214"></dev>
+        <aside class="asideLeft">
+          <ul>
+              <li>量子信息物理原理</li>
+              <li>量子计算</li>
+              <li>量子密码</li>
+              <li>量子通信</li>
+              <li>量子图像处理</li>
+              <li>量子雷达</li>
+              <li>量子度量学</li>
+              <li>量子模拟</li>
+              <li>量子成像</li>
+              <li>休息一会儿</li>
+          </ul>
+        </aside>
+        <aside class="asideRight">
+
+        </aside>  
+        <nav class="bottom">我是有底线的。。。</nav>            
+    </div>
+                   
+</body>
+</html>
